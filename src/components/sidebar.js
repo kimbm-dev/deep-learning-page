@@ -1,7 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import { FaHome, FaGithub, FaHashtag } from 'react-icons/fa'
+import {
+  FaHome,
+  FaUserSecret,
+  FaLinkedin,
+  FaGithub,
+  FaHashtag
+} from 'react-icons/fa'
 
 const Sidebar = styled.div`
   /* Device = Tablets, iPads (portrait) */
@@ -144,6 +150,11 @@ export default ({ title, authorName }) => (
           </StyledLink>
         </p>
         <p>
+          <StyledLink to="/about">
+            <FaUserSecret /> <span>About</span>
+          </StyledLink>
+        </p>
+        <p>
           <StyledLink to="/tags">
             <FaHashtag /> <span>Tags</span>
           </StyledLink>
@@ -152,7 +163,16 @@ export default ({ title, authorName }) => (
       <div>
         <p>
           <StyledHref
-            href="https://github.com/kimbm-dev/deep-learning"
+            href="https://www.linkedin.com/in/vimalraj-selvam/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaLinkedin /> <span>Linkedin</span>
+          </StyledHref>
+        </p>
+        <p>
+          <StyledHref
+            href="https://github.com/email2vimalraj"
             target="_blank"
             rel="noopener noreferrer"
           >
