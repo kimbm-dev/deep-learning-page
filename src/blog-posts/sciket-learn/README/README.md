@@ -4,6 +4,14 @@ date: '2019-2-12'
 tags: ['Python']
 ---
 
+- [scikit-learn](#scikit-learn)
+  - [NumPy](#numpy)
+  - [SciPy](#scipy)
+  - [matplotlib](#matplotlib)
+  - [pandas](#pandas)
+
+# scikit-learn
+
 **Introduction**
 
 scikit-learn を勉強するためには以下のようなパッケージをインストールする必要があります。
@@ -91,7 +99,7 @@ print("COO representation: \n{}".format(eye_coo))
       (2, 2)	1.0
       (3, 3)	1.0
 
-# matplotlib
+## matplotlib
 
 matplotlib は、最も広く使われている Python の科学技術計算向けのグラフ描画ライブラリです。
 
@@ -171,7 +179,7 @@ plt.plot(x, y, marker="x")
 
 ![png](output_14_1.png)
 
-# pandas
+## pandas
 
 pandas は、データを変換したり解析したりするためのライブラリです。pandas は R の DataFrame を模して作られたようです。（まじで？）
 
