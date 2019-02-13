@@ -214,102 +214,19 @@ from IPython.display import display
 display(data_pandas)
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Name</th>
-      <th>Location</th>
-      <th>Age</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Joho</td>
-      <td>New York</td>
-      <td>24</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Anna</td>
-      <td>Paris</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Pater</td>
-      <td>Berlin</td>
-      <td>53</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Linda</td>
-      <td>London</td>
-      <td>33</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+|      | Name  | Location | Age  |
+| :--- | :---- | :------- | :--- |
+| 0    | Joho  | New York | 24   |
+| 1    | Anna  | Paris    | 13   |
+| 2    | Pater | Berlin   | 53   |
+| 3    | Linda | London   | 33   |
 
 以下のように条件を追加してデータを絞ることも可能です。
 
 ```python
 display(data_pandas[data_pandas.Age > 30])
 ```
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Name</th>
-      <th>Location</th>
-      <th>Age</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2</th>
-      <td>Pater</td>
-      <td>Berlin</td>
-      <td>53</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Linda</td>
-      <td>London</td>
-      <td>33</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+|      | Name  | Location | Age  |
+| :--- | :---- | :------- | :--- |
+| 0    | Pater | Berlin   | 53   |
+| 1    | Linda | London   | 33   |

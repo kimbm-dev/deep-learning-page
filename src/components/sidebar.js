@@ -150,11 +150,6 @@ export default ({ title, authorName }) => (
           </StyledLink>
         </p>
         <p>
-          <StyledLink to="/about">
-            <FaUserSecret /> <span>About</span>
-          </StyledLink>
-        </p>
-        <p>
           <StyledLink to="/tags">
             <FaHashtag /> <span>Tags</span>
           </StyledLink>
@@ -163,16 +158,7 @@ export default ({ title, authorName }) => (
       <div>
         <p>
           <StyledHref
-            href="https://www.linkedin.com/in/vimalraj-selvam/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <FaLinkedin /> <span>Linkedin</span>
-          </StyledHref>
-        </p>
-        <p>
-          <StyledHref
-            href="https://github.com/email2vimalraj"
+            href="https://github.com/kimbm-dev/deep-learning"
             target="_blank"
             rel="noopener noreferrer"
           >
